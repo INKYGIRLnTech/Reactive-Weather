@@ -1,5 +1,8 @@
 import React from "react";
-import sunny from "../assets/Sunny.svg"
+import sunny from "../assets/Sunny.svg";
+import Cloudy from "../assets/Cloudy.svg";
+import PartlyCloudy from "../assets/PartlyCloudy.svg";
+import Rainy from "../assets/Rainy.svg";
 
 
 function WeatherCard() {
@@ -18,3 +21,4 @@ function WeatherCard() {
 };
 
 // Export the WeatherCard
+module.exports = WeatherCard;

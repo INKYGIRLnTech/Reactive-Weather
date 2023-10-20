@@ -1,5 +1,7 @@
 import React from 'react';
 // Import data and WeatherCard here
+import cities from './data';
+import WeatherCard from './components/WeatherCard';
 
 
 function App() {
