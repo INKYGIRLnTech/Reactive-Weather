@@ -4,10 +4,19 @@ import cities from './data';
 import WeatherCard from './components/WeatherCard';
 import {useState} from 'react';
 import Location from './components/Location';
+import Form from './components/Form';
 
 
 function App() {
     const [location, setLocation] = useState("New York City")
+    const [typedLocation, setTypedLocation] = useState("")
+
+    function handleSubmit(e) {
+        e.preventDefault();
+        setLocation({typedLocation})
+        setTypedLocation("")
+    }
+
     return (
         <>
             <h1 className = "title">REACTIVE WEATHER</h1>

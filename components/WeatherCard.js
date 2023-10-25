@@ -22,7 +22,7 @@ function WeatherCard(props) {
   return (
     <div className = "card">
         <div className = "img-container">
-            <img className="card-img-top" src = {images[forecast]} alt="Card image cap" id = "icon"/>
+            {/*<img className="card-img-top" src = {data.forecast} alt="Card image cap" id = "icon"/>*/}
         </div>
         <div class="card-body">
             <h3 className="card-title">{props.data.city}</h3>
